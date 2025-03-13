@@ -1,7 +1,7 @@
 SparkFun Timing GNSS Breakout - mosaic-T
 ========================================
 
-[![SparkFun Timing GNSS Breakout - mosaic-T](./Hardware/Dimensions.png)](https://www.sparkfun.com/products/)
+[![SparkFun Timing GNSS Breakout - mosaic-T](./docs/assets/board_files/dimensions.png)](https://www.sparkfun.com/products/)
 
 [*SparkFun Timing GNSS Breakout - mosaic-T (GPS-)*](https://www.sparkfun.com/products/)
 
@@ -36,13 +36,12 @@ Repository Contents
 * **[/docs](/docs/)** - Online documentation files
     * [assets](/docs/assets/) - Assets files
         * [board_files](/docs/assets/board_files/) - Files for the product design
-            * [Eagle design files](/docs/assets/board_files/eagle_files.zip) (.zip)
             * [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-            * [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+            * [Dimensions](/docs/assets/board_files/dimensions.png) (.png)
         * [component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
         * [img/hookup_guide/](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation
 * **[/Hardware](/Hardware/)** - KiCad design files
-    * **[/Production](/Hardware/Production/)** - Panel production files
+    * **[/Production](/Hardware/Production/)** - KiCad panel production files
 
 Product Variants
 ----------------
