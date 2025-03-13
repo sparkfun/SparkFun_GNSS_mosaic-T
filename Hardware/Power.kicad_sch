@@ -1515,7 +1515,7 @@
 		)
 		(uuid "489c31b8-8dcf-4baa-b7e0-d12cd4c7f30a")
 	)
-	(text "Voltage Regulation"
+	(text "Voltage Regulation - AP7361C-3.3V"
 		(exclude_from_sim no)
 		(at 135.89 21.59 0)
 		(effects

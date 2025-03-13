@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun GNSS mosaic-T")
-		(date "2025-03-10")
+		(date "2025-03-13")
 		(rev "v01")
 		(company "SparkFun")
 		(comment 1 "Designed by: P.C.")
@@ -16574,7 +16574,7 @@
 		(dnp no)
 		(uuid "6ad2faf6-de34-42ed-a257-673b904e3d80")
 		(property "Reference" "SW1"
-			(at 189.23 27.94 0)
+			(at 189.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16582,7 +16582,7 @@
 			)
 		)
 		(property "Value" "DPDT_Slide_SMD_7.2x3.5mm"
-			(at 189.23 30.48 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
