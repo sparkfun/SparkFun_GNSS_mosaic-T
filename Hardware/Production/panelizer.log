@@ -1,8 +1,8 @@
-2025-03-13 13:38:14,661 - panelizer_logger - INFO - Running Panelizer
-2025-03-13 13:38:14,675 - panelizer_logger - INFO - ['--panelx', '152.400000', '--panely', '114.300000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '7.620000', '--gapy', '0.000000', '--norightgap', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
-2025-03-13 13:38:14,676 - panelizer_logger - INFO - PANELIZER START: 2025-03-13T13:38:14.676198
-2025-03-13 13:38:22,260 - panelizer_logger - INFO - 
-START: 2025-03-13T13:38:14.676198
+2025-03-13 14:07:15,061 - panelizer_logger - INFO - Running Panelizer
+2025-03-13 14:07:15,092 - panelizer_logger - INFO - ['--panelx', '152.400000', '--panely', '114.300000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '7.620000', '--gapy', '0.000000', '--norightgap', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2025-03-13 14:07:15,139 - panelizer_logger - INFO - PANELIZER START: 2025-03-13T14:07:15.139860
+2025-03-13 14:07:23,990 - panelizer_logger - INFO - 
+START: 2025-03-13T14:07:15.139860
 Board saved by user.
 Zones filled by Panelizer.
 
@@ -11,4 +11,4 @@ Board dimensions: 63.50 x 50.80 mm.
 You can fit 2 x 2 boards on the panel.
 Zones refilled by Panelizer.
 
-2025-03-13 13:38:24,384 - panelizer_logger - INFO - Panelizer complete
+2025-03-13 14:07:26,330 - panelizer_logger - INFO - Panelizer complete
