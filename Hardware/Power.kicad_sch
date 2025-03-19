@@ -5,7 +5,7 @@
 	(uuid "67e60962-fe51-48f3-a6eb-e81b58df3668")
 	(paper "USLetter")
 	(title_block
-		(title "Power")
+		(title "SparkFun GNSS mosaic-T - Power")
 	)
 	(lib_symbols
 		(symbol "SparkFun-Capacitor:1.0uF_0603_16V_10%"

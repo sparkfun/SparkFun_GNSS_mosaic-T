@@ -6,9 +6,9 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun GNSS mosaic-T")
-		(date "2025-03-13")
+		(date "2025-03-19")
 		(rev "v01")
-		(company "SparkFun")
+		(company "SparkFun Electronics")
 		(comment 1 "Designed by: P.C.")
 	)
 	(lib_symbols
@@ -9850,6 +9850,16 @@
 		)
 		(uuid "31c5f1e0-82d2-4cb6-8ca5-de97ae9322ea")
 	)
+	(text "Open jumper when\nproviding external\nVBATT"
+		(exclude_from_sim no)
+		(at 50.8 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3605f484-51a0-433c-ba36-57061bf0ffc1")
+	)
 	(text "mosaic-T GNSS"
 		(exclude_from_sim no)
 		(at 90.17 20.32 0)
@@ -9870,6 +9880,16 @@
 		)
 		(uuid "3eff0607-91c7-4b18-9376-43f76c8b501f")
 	)
+	(text "Open these\njumpers to\ndisable the\nLEDs"
+		(exclude_from_sim no)
+		(at 147.32 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5fcb47d1-3266-481f-99df-9795f28de168")
+	)
 	(text "microSD"
 		(exclude_from_sim no)
 		(at 55.88 157.48 0)
@@ -9880,7 +9900,17 @@
 		)
 		(uuid "82c1a7c7-b9c0-4d2d-b5e6-22a57adf7aa3")
 	)
-	(text "1.8V inputs protected\nby 169K/200K divider"
+	(text "EXT"
+		(exclude_from_sim no)
+		(at 191.77 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90add037-fefb-4293-8ca1-fd1c55448302")
+	)
+	(text "1.8V inputs protected\nby 169K/210K divider"
 		(exclude_from_sim no)
 		(at 143.51 113.03 0)
 		(effects
@@ -9889,6 +9919,16 @@
 			)
 		)
 		(uuid "b5208062-6fd5-4040-8acb-25323c84be62")
+	)
+	(text "INT"
+		(exclude_from_sim no)
+		(at 191.77 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2e46a51-d8f4-47a3-86db-8c7018dc25a7")
 	)
 	(junction
 		(at 203.2 83.82)
@@ -9961,6 +10001,70 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc8e9a68-f072-4ad1-9a09-d9b367221454")
+	)
+	(no_connect
+		(at 73.66 93.98)
+		(uuid "1cbf0994-e5d1-45f3-8a2d-79a9d00b94f3")
+	)
+	(no_connect
+		(at 73.66 91.44)
+		(uuid "3828b8c6-4a5f-4140-8b57-164830abc068")
+	)
+	(no_connect
+		(at 46.99 176.53)
+		(uuid "392f519c-1a5b-4bb3-9615-fe51eb538c3c")
+	)
+	(no_connect
+		(at 73.66 73.66)
+		(uuid "646c6f41-923e-404f-a079-7665d36d0058")
+	)
+	(no_connect
+		(at 73.66 104.14)
+		(uuid "6bf99d0e-bf20-44c1-aab6-7987fcee1bed")
+	)
+	(no_connect
+		(at 73.66 81.28)
+		(uuid "776110fd-cec2-4260-bf53-a773464b3ee4")
+	)
+	(no_connect
+		(at 73.66 83.82)
+		(uuid "7f1ae2ed-0941-47a4-9d6b-040d0658fb73")
+	)
+	(no_connect
+		(at 73.66 88.9)
+		(uuid "a9b28945-cf45-401f-b61c-b485d6c5576f")
+	)
+	(no_connect
+		(at 46.99 186.69)
+		(uuid "af36b5d3-8118-44a3-8a1c-deb93382e01d")
+	)
+	(no_connect
+		(at 73.66 76.2)
+		(uuid "c36d33cd-8455-47bc-a3d6-6771958a4f9e")
+	)
+	(no_connect
+		(at 46.99 173.99)
+		(uuid "c440ec13-1e83-4a10-b1a4-8508baacb0ff")
+	)
+	(no_connect
+		(at 73.66 96.52)
+		(uuid "cc0c1208-bc5c-4d3e-a076-08529c07445d")
+	)
+	(no_connect
+		(at 73.66 71.12)
+		(uuid "cddfbed8-0a18-4645-b69c-4c46c0c443f5")
+	)
+	(no_connect
+		(at 73.66 78.74)
+		(uuid "d6bb1ca6-6d2d-4bac-8560-d1567375d266")
+	)
+	(no_connect
+		(at 73.66 86.36)
+		(uuid "db41a96c-5d75-4108-a41e-c5bfc81b0eb4")
+	)
+	(no_connect
+		(at 184.15 41.91)
+		(uuid "e1483086-d25b-4c92-a264-088047196808")
 	)
 	(wire
 		(pts
@@ -10365,6 +10469,16 @@
 		)
 		(uuid "2f27fcec-92b0-43a3-a544-a44731cbc9d7")
 	)
+	(polyline
+		(pts
+			(xy 188.595 27.94) (xy 189.23 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc6b362-ac05-4483-9db6-d03e93a93a6a")
+	)
 	(wire
 		(pts
 			(xy 58.42 127) (xy 63.5 127)
@@ -10525,6 +10639,16 @@
 		)
 		(uuid "4bd56aaa-a02f-439c-9ea4-12f5fc7ee011")
 	)
+	(polyline
+		(pts
+			(xy 189.23 26.67) (xy 189.23 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4caa656d-733a-4eb2-a178-f9aa9f6cc8ad")
+	)
 	(wire
 		(pts
 			(xy 52.07 58.42) (xy 57.15 58.42)
@@ -10604,6 +10728,16 @@
 			(type default)
 		)
 		(uuid "56899f1d-3a51-4fb9-a192-bf2d551823a7")
+	)
+	(polyline
+		(pts
+			(xy 188.595 51.435) (xy 189.23 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0d034e-bdbb-4dcc-9ec3-c3cc2e04c369")
 	)
 	(wire
 		(pts
@@ -10815,6 +10949,16 @@
 		)
 		(uuid "7674e3f4-a6e2-4f88-a79e-e36679813bc9")
 	)
+	(polyline
+		(pts
+			(xy 189.23 52.705) (xy 189.865 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786dc399-2218-4301-8bcd-f637c3fe8be4")
+	)
 	(wire
 		(pts
 			(xy 106.68 58.42) (xy 107.95 58.42)
@@ -10864,6 +11008,16 @@
 			(type default)
 		)
 		(uuid "80fc35b6-c105-4bc9-a272-36d26f1e5750")
+	)
+	(polyline
+		(pts
+			(xy 189.23 26.67) (xy 189.865 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a5272b-4232-4db9-a9b8-a0be836dc53e")
 	)
 	(wire
 		(pts
@@ -11667,6 +11821,16 @@
 			(type default)
 		)
 		(uuid "fa26bb4f-ee05-41b3-b657-5d429ede30b6")
+	)
+	(polyline
+		(pts
+			(xy 189.23 52.705) (xy 189.23 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7cb73a-863e-4838-a6f9-369c75efd7cf")
 	)
 	(wire
 		(pts
@@ -16574,7 +16738,7 @@
 		(dnp no)
 		(uuid "6ad2faf6-de34-42ed-a257-673b904e3d80")
 		(property "Reference" "SW1"
-			(at 189.23 26.67 0)
+			(at 189.23 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16582,7 +16746,7 @@
 			)
 		)
 		(property "Value" "DPDT_Slide_SMD_7.2x3.5mm"
-			(at 189.23 29.21 0)
+			(at 189.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
