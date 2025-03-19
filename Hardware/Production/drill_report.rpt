@@ -1,5 +1,5 @@
 Drill report for SparkFun_GNSS_mosaic-T_panelized.kicad_pcb
-Created on 2025-03-13T14:08:10+0000
+Created on 2025-03-19T15:37:07+0000
 
 Copper Layer Stackup:
     =============================================================
@@ -12,11 +12,11 @@ Copper Layer Stackup:
 Drill file 'SparkFun_GNSS_mosaic-T_panelized.drl' contains
     plated through holes:
     =============================================================
-    T1  0.305mm  0.0120"  (1104 holes)
+    T1  0.305mm  0.0120"  (1112 holes)
     T2  0.600mm  0.0236"  (16 holes)  (with 16 slots)
     T3  1.016mm  0.0400"  (120 holes)
 
-    Total plated holes count 1240
+    Total plated holes count 1248
 
 
 Not plated through holes are merged with plated holes
