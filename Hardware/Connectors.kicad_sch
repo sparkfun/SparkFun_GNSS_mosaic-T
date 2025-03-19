@@ -6853,6 +6853,12 @@
 		(uuid "fdc37089-4038-4736-801d-c118e43e3735")
 	)
 	(junction
+		(at 132.08 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04a21934-7294-41fb-be24-9bb2709b7b1f")
+	)
+	(junction
 		(at 201.93 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7517,6 +7523,16 @@
 			(type default)
 		)
 		(uuid "3f750484-d415-4081-b53f-8859054587e5")
+	)
+	(wire
+		(pts
+			(xy 132.08 40.64) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc13545-48fe-4e7e-a2a3-007d6126ffbd")
 	)
 	(wire
 		(pts
@@ -8272,6 +8288,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980de738-e217-4f01-8577-225511413830")
+	)
+	(wire
+		(pts
 			(xy 231.14 120.65) (xy 232.41 120.65)
 		)
 		(stroke
@@ -8913,7 +8939,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 38.1) (xy 132.08 44.45)
+			(xy 132.08 38.1) (xy 132.08 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10312,6 +10338,74 @@
 			(project "SparkFun_GNSS_mosaic-T"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/31a2c60b-91be-4113-ae16-f797035e304d"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.25mm")
+		(at 133.35 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09641ea4-4253-4a7e-9613-5081e7ae0968")
+		(property "Reference" "TP13"
+			(at 138.43 40.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1.25mm"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.25mm"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f55ac19-8ec3-451c-9352-03e23eab0c43")
+		)
+		(instances
+			(project "SparkFun_GNSS_mosaic-T"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/31a2c60b-91be-4113-ae16-f797035e304d"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
