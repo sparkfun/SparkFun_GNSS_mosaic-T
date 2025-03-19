@@ -18359,7 +18359,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "776ad3bd-815f-40eb-a91e-d98e3ccab9d6")
+			(uuid "a6c7da2f-5323-4026-84a9-4c9dfd1fd9ea")
 		)
 		(pad "2" smd rect
 			(at 2.54 0 270)
@@ -18369,7 +18369,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "776ad3bd-815f-40eb-a91e-d98e3ccab9d6")
+			(uuid "55199fbf-6f58-4e0a-ae2b-815dbd4ca1ab")
 		)
 		(pad "2" smd rect
 			(at 2.54 0 270)
@@ -18379,7 +18379,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "776ad3bd-815f-40eb-a91e-d98e3ccab9d6")
+			(uuid "3def48c6-44b9-46e8-ae5a-a9db749693ab")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/SMA-Edge.step"
@@ -20003,7 +20003,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "b1b0e4ff-e9dd-47d6-b7a0-45dac40ac3e3")
+			(uuid "81904b36-a476-48c0-8b17-140284195f14")
 		)
 		(pad "2" smd rect
 			(at 2.54 0 270)
@@ -20013,7 +20013,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "b1b0e4ff-e9dd-47d6-b7a0-45dac40ac3e3")
+			(uuid "6a03cf3b-a964-48f4-9496-879c40735b2f")
 		)
 		(pad "2" smd rect
 			(at 2.54 0 270)
@@ -20023,7 +20023,7 @@
 			(pinfunction "Ext")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "b1b0e4ff-e9dd-47d6-b7a0-45dac40ac3e3")
+			(uuid "9059945f-c265-436b-855f-c1fe895dec5b")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/SMA-Edge.step"
@@ -24193,7 +24193,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "f8ce4fe8-91d3-4278-b713-6c8b6311d632")
+			(uuid "40941e27-f416-4473-9397-efb284ef085d")
 		)
 		(pad "NC1" thru_hole oval
 			(at -4.318 5.095 270)
@@ -24257,7 +24257,7 @@
 			(pinfunction "VBUS")
 			(pintype "power_out")
 			(thermal_bridge_angle 0)
-			(uuid "b7bdea5e-9dd9-47e2-987c-2f0ffa3fb496")
+			(uuid "491a974c-5870-4eb2-a12c-feb772a85956")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/USB-C_16.step"
@@ -28946,7 +28946,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "c4dd1e86-b66f-48d2-b981-977000b4aa5d")
+			(uuid "7caa56ea-92b7-4fc5-a144-46ece3965be9")
 		)
 		(pad "2" smd rect
 			(at -2.794 1.905 90)
@@ -28966,7 +28966,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "ad7c3e57-0d2f-458d-aca9-d40a17355f67")
+			(uuid "7e5c611c-89c2-4636-b72d-33d192de8d2a")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Switch/Tactile_Switch_5.2x5.2mm_h2.5mm.step"
