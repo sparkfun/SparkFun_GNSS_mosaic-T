@@ -50,7 +50,7 @@ Product Variants
 ----------------
 
 - mosaic-T:
-	- [GPS-28731]( - mosaic-T Timing GNSS Breakout
+	- [GPS-28731](https://www.sparkfun.com/products/28731) - mosaic-T Timing GNSS Breakout
 	- [GPS-26289](https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html) - GNSS Disciplined Oscillator
 - mosaic-X5:
 	- [GPS-23088](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) - Triband GNSS RTK Breakout - mosaic-X5
