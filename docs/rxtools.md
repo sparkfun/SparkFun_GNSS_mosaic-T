@@ -15,10 +15,8 @@ icon: septentrio
 !!! tip
 	Even if you aren't necessarily interested it, we highly recommend that users install the [RXTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) before plugging in their board. For Windows PCs, it also includes the USB driver for the module that enables the Ethernet-over-USB support and virtual `COM` ports.
 
-Users should install the [RXTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) on their computer to interact with the mosaic-T module through the USB interface. The software package includes the USB-IP driver[^1] necessary to recognize the board as an ethernet device on Windows PCs (1).
-{ .annotate }
 
-1. On Linux, the standard Linux CDC-ACM driver is suitable.
+Users should install the [RXTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) on their computer to interact with the mosaic-T module through the USB interface. The software package includes the USB-IP driver[^1] necessary to recognize the board as an ethernet device on Windows PCs.
 
 [^1]: On Linux, the standard Linux CDC-ACM driver is suitable.
 
@@ -28,8 +26,12 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 </article>
 
 
+!!! info
+	The system requirements and installation instructions are from the RxTools *v22.1.0* user manual. This information may change in later iterations of the software suite. Please refer to the user manual *(of the version you are utilizing)* for the most accurate information.
 
-## System Requirements[^2]
+
+
+## System Requirements
 
 <div class="grid" markdown>
 
@@ -54,7 +56,7 @@ Users should install the [RXTools software suite](https://www.septentrio.com/en/
 
 ---
 
-The minimal hardware requirements *(1Hz update[^3])*:
+The minimal hardware requirements *(1Hz update[^2])*:
 
 - CPU: 1 GHz processor
 - RAM: 1 GB RAM
@@ -64,15 +66,15 @@ The minimal hardware requirements *(1Hz update[^3])*:
 
 </div>
 
-[^2]: The system requirements and installation instructions are from the RxTools *v22.1.0* user manual. This information may change in later iterations of the software suite. Please refer to the user manual *(of the version you are utilizing)* for the most accurate information.
-[^3]: Higher data rates will require higher CPU speed and more memory capacity.
+
+[^2]: Higher data rates will require higher CPU speed and more memory capacity.
 
 
 
-## Installation Instructions[^2]
+## Installation Instructions
 
 === "Windows"
-	Users can install RxTools software suite by running the installation executable[^4](1), located in the `RxTools\windows` directory of the downloaded `*.zip` file[^5]. During the installation process, users will be notified if a previous version of RxTools is already installed then that the previous version will be uninstalled. Next, users will need to provide an installation directory for the RxTools software suite. Users will then select which of the following applications[^6] are installed:
+	Users can install RxTools software suite by running the installation executable[^3](1), located in the `RxTools\windows` directory of the downloaded `*.zip` file[^4]. During the installation process, users will be notified if a previous version of RxTools is already installed then that the previous version will be uninstalled. Next, users will need to provide an installation directory for the RxTools software suite. Users will then select which of the following applications[^5] are installed:
 	{ .annotate }
 
 	1. For RxTools v22.1.0, the installation filename is `RxTools_22_1_0_Installer.exe` for Windows PCs.
@@ -115,7 +117,7 @@ The minimal hardware requirements *(1Hz update[^3])*:
 	!!! warning
 		It is recommended that users **<span style="color:red">NOT</span>** install RxControl as `root`, for security reasons and to avoid installation overwrites of other system settings. To make RxTools available to more than one user, provide a shared installation directory.
 
-	Users can install RxTools software suite by running the installation binary[^4](1), located in the `RxTools/linux-i386/` directory of the downloaded `*.zip` file[^5]. During the installation, users will be prompted for an installation directory. If there are any previous installations of RxControl, please use a different directory to avoid conflicts.
+	Users can install RxTools software suite by running the installation binary[^3](1), located in the `RxTools/linux-i386/` directory of the downloaded `*.zip` file[^4]. During the installation, users will be prompted for an installation directory. If there are any previous installations of RxControl, please use a different directory to avoid conflicts.
 	{ .annotate }
 
 	1. For RxTools v22.1.0, the installation filename is `RxTools_22_1_0_Installer.bin` for Linux.
@@ -128,7 +130,7 @@ The minimal hardware requirements *(1Hz update[^3])*:
 
 		- RxTools will need rights to access the `/dev/ttyS*` serial ports.
 
-			- To access the serial ports, users must be part of the `uucp` and `lock` groups (1). This can be configured by editing the `/etc/group`[^7] file and adding the username to the lines defining the `uucp` group and the `lock` group.
+			- To access the serial ports, users must be part of the `uucp` and `lock` groups (1). This can be configured by editing the `/etc/group`[^6] file and adding the username to the lines defining the `uucp` group and the `lock` group.
 
 				For example, when adding the user `jsmith` to the `uucp` group, users would modify the `/etc/group` file as shown below:
 
@@ -168,11 +170,11 @@ The minimal hardware requirements *(1Hz update[^3])*:
 		- The equivalent for Debian(/Ubuntu) installations is the `ia32-libs` package.
 
 
-[^4]: Users will need administrative privileges to install the RxTools software.
-[^5]: Users may need to extract the RxTools installation files from the downloaded, compressed file.
-[^6]: Please see the release notes for the issues and limitations of the RxTools applications.
-[^7]: Requires c privileges.
-[^8]: Changing these permissions also requires `root` privileges.
+[^3]: Users will need administrative privileges to install the RxTools software.
+[^4]: Users may need to extract the RxTools installation files from the downloaded, compressed file.
+[^5]: Please see the release notes for the issues and limitations of the RxTools applications.
+[^6]: Requires c privileges.
+[^7]: Changing these permissions also requires `root` privileges.
 
 
 
