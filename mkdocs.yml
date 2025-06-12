@@ -411,14 +411,12 @@ nav:
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md
   - Software:
-    - Overview:
-      - software_overview.md
-      - RxTools: rxtools.md
-      - Web Interface: web_interface.md
+    - Software Overview: software_overview.md
+    - RxTools Suite: rxtools.md
+    - Web Interface: web_interface.md
     - Adv. Configurations:
       - Enable GNSS Signals: gnss_signals.md
-  - Resources:
-    - Hardware Resources: resources.md
+  - Resources: resources.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
     - Submit Issues: github/file_issue.md
