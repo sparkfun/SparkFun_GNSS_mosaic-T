@@ -15,7 +15,7 @@ icon: material/book-open-page-variant
 
 <div class="grid cards desc" markdown>
 
--   <a href="https://www.sparkfun.com/products/28731">
+-   <a href="https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html">
 	**GNSS Timing Breakout - mosaic-T**<br>
 	**SKU:** GPS-28731
 
@@ -31,7 +31,7 @@ icon: material/book-open-page-variant
 	</article>
 
 	<article style="text-align: center;" markdown>
-	![QR code to product page](./assets/img/qr_code/product.png){ .tinyqr }[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/28731){ .md-button .md-button--primary }
+	![QR code to product page](./assets/img/qr_code/product.png){ .tinyqr }[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html){ .md-button .md-button--primary }
 	</article>
 
 
@@ -238,7 +238,7 @@ In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board a
 		The [RxTools software suite](https://www.septentrio.com/en/products/gps-gnss-receiver-software/rxtools) from Septentrio, automatically installs the required USB-over-Ethernet driver and provides users with an interface for the receiver configuration, monitoring, data logging, and analysis. However, it only appears to be available for Windows and Linux operating systems.
 
 - [USB 3.1 Cable A to C - 3 Foot](https://www.sparkfun.com/usb-3-1-cable-a-to-c-3-foot.html) - Used to interface with the mosaic-T GNSS Breakout (2)
-- [SparkFun GNSS Timing Breakout - mosaic-T](https://www.sparkfun.com/products/28731) (3)
+- [SparkFun GNSS Timing Breakout - mosaic-T](https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html) (3)
 - [GNSS Multi-Band L1/L2/L5 Surveying Antenna](https://www.sparkfun.com/gnss-multi-band-l1-l2-l5-surveying-antenna-tnc-spk6618h.html)
 	- [SMA Male to TNC Male Cable](https://www.sparkfun.com/reinforced-interface-cable-sma-male-to-tnc-male-10m.html)
 	- [Antenna Mount](https://www.sparkfun.com/gnss-magnetic-antenna-mount-5-8-11-tpi.html)
@@ -263,7 +263,7 @@ In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board a
 	CAB-14743</a>
 
 
--   <a href="https://www.sparkfun.com/products/28731">
+-   <a href="https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html">
 	<figure markdown>
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/3/0/5/8/2/28731-Timing-GNSS-Breakout-mosaic-T-5-Feature.jpg)
 	</figure>

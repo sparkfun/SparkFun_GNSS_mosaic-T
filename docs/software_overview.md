@@ -5,7 +5,7 @@ icon: fontawesome/solid/computer
 !!! note
 	The mosaic-T module has numerous capabilities and a multitude of ways to configure and interface with them. Without regurgitating all the information that is documented in Septentrio's user manuals and videos, we have tried to highlight a good majority of the module's aspects.
 
-	With that said, please feel free to [file an issue](file_issue.md#discrepancies-in-the-documentation) if you feel we have missed something that may benefit other users. *(Don't forget to provide us with a link to the documentation and what section the information is located.)*
+	With that said, please feel free to [file an issue](../github/file_issue.md#discrepancies-in-the-documentation) if you feel we have missed something that may benefit other users. *(Don't forget to provide us with a link to the documentation and what section the information is located.)*
 
 
 

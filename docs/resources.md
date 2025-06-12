@@ -1,6 +1,6 @@
 ## Product Resources
 
-- :sfe: [Product Page](
+- :sfe: [Product Page](https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
@@ -11,8 +11,8 @@
 		- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.14.10.1_Reference_Guide.pdf)
 	- :fontawesome-solid-file-pdf: [JST-GH Connector Datasheet](./assets/component_documentation/JST-GH_datasheet.pdf)
 	- :fontawesome-solid-file-pdf: [AP7361C Datasheet](./assets/component_documentation/AP7361C.pdf)
-	- :fontawesome-solid-file-pdf: [PESDxL4 Datasheet](./assets/component_documentation/PESDXL4UF_G_W.pdf)
-	- :fontawesome-solid-file-pdf: [RFCMF1220100M4T Datasheet](./assets/component_documentation/watcs00941_1-2271498.pdf)
+	- :fontawesome-solid-file-pdf: [74LVC2T45 Datasheet](./assets/component_documentation/74LVC_LVCH2T45.pdf)
+	- :fontawesome-solid-file-pdf: [LMV7219 Datasheet](./assets/component_documentation/lmv7219.pdf)
 - :material-youtube: [SFE Product Showcase](https://youtu.be/TSkIvtaVZc0)
 - :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T)
 
