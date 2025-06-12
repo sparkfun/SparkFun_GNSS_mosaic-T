@@ -417,6 +417,7 @@ nav:
     - Adv. Configurations:
       - Enable GNSS Signals: gnss_signals.md
       - Disciplined Oscillator: oscillator.md
+      - Furgo AtomiChron<sup>&reg;</sup>: atomichron.md
   - Resources: resources.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
