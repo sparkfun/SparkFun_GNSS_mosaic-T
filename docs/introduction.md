@@ -25,10 +25,6 @@ icon: material/book-open-page-variant
 	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/3/0/5/8/2/28731-Timing-GNSS-Breakout-mosaic-T-5-Feature.jpg)
 	</figure></a>
 
-	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-	<iframe src="https://www.youtube.com/embed/TSkIvtaVZc0" title="Product Showcase: SparkFun GNSS Timing Breakout - mosaic-T - mosaic-T" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	![QR code to play video](./assets/img/qr_code/product-video.png){ .qr }
-	</article>
 
 	<article style="text-align: center;" markdown>
 	![QR code to product page](./assets/img/qr_code/product.png){ .tinyqr }[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html){ .md-button .md-button--primary }

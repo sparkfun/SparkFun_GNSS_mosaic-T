@@ -13,7 +13,6 @@
 	- :fontawesome-solid-file-pdf: [AP7361C Datasheet](./assets/component_documentation/AP7361C.pdf)
 	- :fontawesome-solid-file-pdf: [74LVC2T45 Datasheet](./assets/component_documentation/74LVC_LVCH2T45.pdf)
 	- :fontawesome-solid-file-pdf: [LMV7219 Datasheet](./assets/component_documentation/lmv7219.pdf)
-- :material-youtube: [SFE Product Showcase](https://youtu.be/TSkIvtaVZc0)
 - :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T)
 
 
