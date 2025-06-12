@@ -60,7 +60,7 @@ The USB connection is utilized for configuration and serial communication. Users
 <div markdown>
 
 1. When the board is initially connected to a computer, the module will initialize as a USB mass storage device.
-	- For Windows PCs, the [USB driver](software_overview.md#septentrio-usb-driver) can be installed from the mass storage device or the [RxTools software suite](software_overview.md#rxtools-software-suite).
+	- For Windows PCs, the [USB driver](software_overview.md#usb-driver) can be installed from the mass storage device or the [RxTools software suite](software_overview.md#rxtools-software-suite).
 	- When the SD card is mounted, this drive will contain the contents of the SD card that is inserted on the board.
 1. Once the USB driver is installed:
 	- Two virtual `COM` ports are emulated, which can be used as standard serial interfaces to access the receiver.
@@ -134,7 +134,7 @@ An &micro;SD card slot is available for users to log and store data, locally on 
 
 
 !!! info "Operation"
-	Data logging can be controlled on the board through either the [++"LOG"++ button](#log-button) or [`LOG BTN` pin](#data-logging).
+	Data logging can be controlled on the board through either the [++"LOG"++ button](hardware_overview.md#log-button) or [`LOG BTN` pin](hardware_overview.md#data-logging).
 
 	- Pressing the button or pin `LOW` *(< 5s)* toggles data logging to the SD card on and off.
 	- Holding the button or pin `LOW` for more than 5 seconds *(> 5s)* and then releasing it, will force the board to:
@@ -156,7 +156,7 @@ An &micro;SD card slot is available for users to log and store data, locally on 
 
 
 !!! warning "Standby Mode"
-	When Standby mode is initialized, the module terminates all running processes and unmounts the external SD card to avoid any log file corruption *(see the **[Power Modes](#power-modes)** section)*.
+	When Standby mode is initialized, the module terminates all running processes and unmounts the external SD card to avoid any log file corruption *(see the **[Power Modes](hardware_overview.md#power-modes)** section)*.
 
 
 
@@ -342,7 +342,7 @@ In order to create a [GNSS disciplined oscillator](https://en.wikipedia.org/wiki
 	- Read the clock bias from the mosaic-T module's SBF messages
 	- Adjust the frequency of the external clock signal
 
-	Unlike traditional approaches, this configuration does not require any external hardware to measure the time delay. Once the clock bias reaches zero, the oscillator's time scale will be aligned with the GNSS time. For time synchronization applications, users can also implement a [third-party synchronization service](fugro_atomichron.md) in the mosaic-T module's configuration. This will allow all systems to not only be aligned with the GNSS time, but also synchronized together.
+	Unlike traditional approaches, this configuration does not require any external hardware to measure the time delay. Once the clock bias reaches zero, the oscillator's time scale will be aligned with the GNSS time. For time synchronization applications, users can also implement a [third-party synchronization service](atomichron.md) in the mosaic-T module's configuration. This will allow all systems to not only be aligned with the GNSS time, but also synchronized together.
 
 	<figure markdown>
 	[![Disciplined clock setup](./assets/img/hookup_guide/disciplined_clock.png){ width="300" }](./assets/img/hookup_guide/disciplined_clock.png "Click to enlarge")

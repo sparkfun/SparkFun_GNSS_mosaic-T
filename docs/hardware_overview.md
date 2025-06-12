@@ -169,7 +169,7 @@ A USB connector is provided to power and interface with the mosaic-T GNSS receiv
 
 
 !!! serial "Windows OS"
-	For Windows computers, users will need to [install the USB driver](software_overview.md#septentrio-usb-driver) before they can interact with the mosaic-T GNNS module.
+	For Windows computers, users will need to [install the USB driver](software_overview.md#usb-driver) before they can interact with the mosaic-T GNNS module.
 
 !!! info
 	For more details about this interface, please refer to the [**USB-C Connector** section](#usb-c-connector_1) below.
@@ -835,7 +835,7 @@ For most users, this will be the primary interface for the mosaic-T module.
 <div markdown>
 
 1. When the board is initially connected to a computer, the module will initialize as a USB mass storage device.
-	- For Windows PCs, the [USB driver](software_overview.md#septentrio-usb-driver) can be installed from the mass storage device or the [RxTools software suite](software_overview.md#rxtools-software-suite).
+	- For Windows PCs, the [USB driver](software_overview.md#usb-driver) can be installed from the mass storage device or the [RxTools software suite](software_overview.md#rxtools-software-suite).
 	- When the SD card is mounted, this drive will contain the contents of the SD card that is inserted on the board.
 1. Once the USB driver is installed:
 	- Two virtual `COM` ports are emulated, which can be used as standard serial interfaces to access the receiver.

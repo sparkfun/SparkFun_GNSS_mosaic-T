@@ -4,7 +4,7 @@
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
-	- :material-folder-zip: [Eagle Files](./assets/board_files/eagle_files.zip)
+	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 - Component Documentation
 	- :fontawesome-solid-file-pdf: [mosaic-T Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)
 		- :fontawesome-solid-file-pdf: [mosaic-T Brochure](./assets/component_documentation/Septentrio_mosaic-T_LR_new.pdf)

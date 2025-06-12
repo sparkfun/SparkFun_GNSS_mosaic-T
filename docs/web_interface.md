@@ -5,7 +5,7 @@ icon: material/web
 !!! note
 	The mosaic-T module has numerous capabilities and a multitude of ways to configure and interface with them. Without regurgitating all the information that is documented in Septentrio's user manuals and videos, we have tried to highlight a good majority of the module's aspects.
 
-	With that said, please feel free to [file an issue](../github/file_issue.md#discrepancies-in-the-documentation) if you feel we have missed something that may benefit other users. *(Don't forget to provide us with a link to the documentation and what section the information is located.)*
+	With that said, please feel free to [file an issue](github/file_issue.md#discrepancies-in-the-documentation) if you feel we have missed something that may benefit other users. *(Don't forget to provide us with a link to the documentation and what section the information is located.)*
 
 
 
@@ -109,14 +109,14 @@ With the USB driver installed, the mosaic-T module supports Ethernet-over-USB. T
 	</article>
 
 
--   Currently, at the time that this board was released, the firmware for the mosaic-T module was *v4.14.0*[^4]. Users can download [**version 4.14.0**](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.0.zip) of the firmware, by clicking on the button below.
+-   Currently, at the time that this board was released, the firmware for the mosaic-T module was *v4.14.0*[^4]. Users can download [**version 4.14.0**](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.10.1.zip) of the firmware, by clicking on the button below.
 
 	[^4]:
 		For the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-T#resources).<br>
 		*This is firmware version, was archived at the time that this guide was written. Please do not request for the file to be updated; instead visit the product page to download the latest firmware.*
 
 	<article style="text-align: center;" markdown>
-	[:octicons-download-16:{ .heart } Download Firmware *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.0.zip){ .md-button .md-button--primary target="blank" }
+	[:octicons-download-16:{ .heart } Download Firmware *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.10.1.zip){ .md-button .md-button--primary target="blank" }
 	</article>
 
 </div>

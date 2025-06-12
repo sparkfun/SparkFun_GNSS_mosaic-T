@@ -5,7 +5,7 @@ icon: septentrio
 !!! note
 	The mosaic-T module has numerous capabilities and a multitude of ways to configure and interface with them. Without regurgitating all the information that is documented in Septentrio's user manuals and videos, we have tried to highlight a good majority of the module's aspects.
 
-	With that said, please feel free to [file an issue](../github/file_issue.md#discrepancies-in-the-documentation) if you feel we have missed something that may benefit other users. *(Don't forget to provide us with a link to the documentation and what section the information is located.)*
+	With that said, please feel free to [file an issue](github/file_issue.md#discrepancies-in-the-documentation) if you feel we have missed something that may benefit other users. *(Don't forget to provide us with a link to the documentation and what section the information is located.)*
 
 
 
@@ -142,7 +142,7 @@ The minimal hardware requirements *(1Hz update[^2])*:
 			- On Linux machine administered centrally on a local network, ask your system administrator to be included in the `uucp` and `lock` groups.
 		- RxTools also needs read/write (`rw`) access(4) to the `/dev/ttyS*` serial ports.
 
-			- Users can change the permissions with the `chmod`[^8] command:
+			- Users can change the permissions with the `chmod`[^7] command:
 
 				```bash
 				chmod 660 /dev/ttyS<add port> # (5)!>

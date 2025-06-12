@@ -14,7 +14,7 @@ Fugro AtomiChron^&reg;^ is a global, real-time, precise clock synchronization an
 <div markdown>
 
 <figure markdown>
-[![Block diagram](./assets/img/hookup_guide/fugro/block_diagram.png){ width="600" }](./assets/img/hookup_guide/block_diagram.png "Click to enlarge")
+[![Block diagram](./assets/img/hookup_guide/fugro/block_diagram.png){ width="600" }](./assets/img/hookup_guide/fugro/block_diagram.png "Click to enlarge")
 <figcaption markdown>Fugro AtomiChron overview.</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ The AtomiChron^&reg;^ subscriptions are managed by Fugro. To subscribe, Fugro wi
 <div markdown>
 
 <figure markdown>
-[![Subscription ID from web page](./assets/img/hookup_guide/fugro/serial_number.png){ width="400" }](./assets/img/hookup_guidefugro/serial_number.png "Click to enlarge")
+[![Subscription ID from web page](./assets/img/hookup_guide/fugro/serial_number.png){ width="400" }](./assets/img/hookup_guide/fugro/serial_number.png "Click to enlarge")
 <figcaption markdown>Fugro AtomiChron ID on the mosaic-T web page.</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ The AtomiChron^&reg;^ subscriptions are managed by Fugro. To subscribe, Fugro wi
 	With an AtomiChron^&reg;^ subscription, the firmware will use Fugro's composite bias reported in **FugroTimeOffset** to discipline the internal/external oscillator's frequency. Users also have the option to select a clock bias of individual GNSS constellations over Fugro's composite bias.
 
 	<figure markdown>
-	[![Fugro AtomiChron active](./assets/img/hookup_guide/fugro/service-active.png){ width="400" }](./assets/img/hookup_guide/service-active.png "Click to enlarge")
+	[![Fugro AtomiChron active](./assets/img/hookup_guide/fugro/service-active.png){ width="400" }](./assets/img/hookup_guide/fugro/service-active.png "Click to enlarge")
 	<figcaption markdown>The mosaic-T with an active Fugro AtomiChron subscription.</figcaption>
 	</figure>
 
@@ -101,7 +101,7 @@ The AtomiChron^&reg;^ subscriptions are managed by Fugro. To subscribe, Fugro wi
 	Without an AtomiChron^&reg;^ subscription, the firmware will use the composite GNSS **RxClkBias** from **PVTGeodetic** to discipline the internal/external oscillator's frequency.
 
 	<figure markdown>
-	[![Fugro AtomiChron expired](./assets/img/hookup_guide/fugro/service-expired.png){ width="400" }](./assets/img/hookup_guide/service-expired.png "Click to enlarge")
+	[![Fugro AtomiChron expired](./assets/img/hookup_guide/fugro/service-expired.png){ width="400" }](./assets/img/hookup_guide/fugro/service-expired.png "Click to enlarge")
 	<figcaption markdown>By default, the Fugro AtomiChron subscription shows as "expired".</figcaption>
 	</figure>
 

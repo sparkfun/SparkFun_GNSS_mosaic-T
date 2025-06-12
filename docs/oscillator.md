@@ -101,7 +101,7 @@ At each subsequent (re)start of the system, the controller will need to execute 
 
 
 !!! tip
-	When using [Fugro's AtomiChron^&reg;^ service](fugro_atomichron.md), the reported clock will initially refer to the GNSS time scale during the first two to three minutes after start up, before switching to the AtomiChron^&reg;^ time scale. The change between reference time scales, may lead to a clock bias shift by a couple of nanoseconds. The reference time scale is reported in the `TimeSystem` field of the `PVTCartesian` SBF block and the jump can be avoided by waiting until that field is set to *Fugro AtomiChron* (`100`).
+	When using [Fugro's AtomiChron^&reg;^ service](atomichron.md), the reported clock will initially refer to the GNSS time scale during the first two to three minutes after start up, before switching to the AtomiChron^&reg;^ time scale. The change between reference time scales, may lead to a clock bias shift by a couple of nanoseconds. The reference time scale is reported in the `TimeSystem` field of the `PVTCartesian` SBF block and the jump can be avoided by waiting until that field is set to *Fugro AtomiChron* (`100`).
 
 
 !!! note "Timing Delay"
