@@ -416,6 +416,7 @@ nav:
     - Web Interface: web_interface.md
     - Adv. Configurations:
       - Enable GNSS Signals: gnss_signals.md
+      - Disciplined Oscillator: oscillator.md
   - Resources: resources.md
   - Support:
     - Troubleshooting Tips: troubleshooting_tips.md
