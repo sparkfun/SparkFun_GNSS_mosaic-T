@@ -15,6 +15,7 @@ icon: material/tools
 
 			<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 			<iframe src="https://www.youtube.com/embed/hrL5J6Q5gX8?si=jOPBat8rzMnL7Uz4&amp;start=26;&amp;end=35;" title="Septentrio: Getting Started Video (playback starts at ESD warning)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			![QR code to play video](./assets/img/qr_code/video-mosaic-getting_started.png){ .qr }
 			</article>
 
 			</div>
