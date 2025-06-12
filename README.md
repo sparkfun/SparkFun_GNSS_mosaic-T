@@ -3,7 +3,7 @@ SparkFun Timing GNSS Breakout - mosaic-T
 
 ![SparkFun Timing GNSS Breakout - mosaic-T](./banner-repo.png)
 
-[*SparkFun Timing GNSS Breakout - mosaic-T (GPS-28731)*](
+[*SparkFun Timing GNSS Breakout - mosaic-T (GPS-28731)*](https://www.sparkfun.com/products/28731)
 
 At the heart of our Timing GNSS Breakout is [Septentrio](https://www.septentrio.com/en)'s mosaic-T, a compact, ultra-low power, multi-band, multi-constellation, high-precision GNSS timing receiver. It can acheive a timing precision of 5ns (5 billionths of a second), or better than 1ns with an optional subscription to the Fugro AtomiChron® L-band timing service. Event accuracy is better than 20ns. It also features Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-jamming-protection) for interference mitigation and anti-spoofing, ensuring best-in-class reliability and accuracy.
 
