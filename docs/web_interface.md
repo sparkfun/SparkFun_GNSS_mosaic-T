@@ -105,18 +105,18 @@ With the USB driver installed, the mosaic-T module supports Ethernet-over-USB. T
 -   To check for the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-T#resources) for the mosaic-T module. Users can click on the button below, to be redirected to the latest firmware for the mosaic-T.
 
 	<article style="text-align: center;" markdown>
-	[:logo-septentrio: Find the Latest Firmware](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-T#resources){ .md-button .md-button--primary target="blank" }
+	[Find the Latest Firmware](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-T#resources){ .md-button .md-button--primary target="blank" }
 	</article>
 
 
--   Currently, at the time that this board was released, the firmware for the mosaic-T module was *v4.14.0*[^4]. Users can download [**version 4.14.0**](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.10.1.zip) of the firmware, by clicking on the button below.
+-   Currently, at the time that this board was released, the firmware for the mosaic-T module was *v4.14.10.1*[^4]. Users can download [**version 4.14.10.1**](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.10.1.zip) of the firmware, by clicking on the button below.
 
 	[^4]:
 		For the latest firmware published by Septentrio, please visit their [product page](https://www.septentrio.com/en/products/gps/gnss-receiver-modules/mosaic-T#resources).<br>
 		*This is firmware version, was archived at the time that this guide was written. Please do not request for the file to be updated; instead visit the product page to download the latest firmware.*
 
 	<article style="text-align: center;" markdown>
-	[:octicons-download-16:{ .heart } Download Firmware *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.10.1.zip){ .md-button .md-button--primary target="blank" }
+	[:octicons-download-16:{ .heart } Download Firmware *(v4.14.10.1)*](./assets/component_documentation/firmware/mosaic-T_fwp_4.14.10.1.zip){ .md-button .md-button--primary target="blank" }
 	</article>
 
 </div>
@@ -179,43 +179,8 @@ This video illustrates how users can configure and enable a data stream through 
 
 
 
-### RTK Corrections
-
-<div class="grid" markdown>
-
-<div markdown>
-For users with multiple RTK capable GNSS receivers, users can configure their mosaic-T as a rover.
-
-<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-<iframe src="https://www.youtube.com/embed/UVUVXpA8rB4" title="Septentrio: How to receive corrections over an IP connection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
-
-</div>
-
-
-<div markdown>
-Without having to setup a personal base station, users can receive RTK corrections through the internet from 3rd-party services.
-
-<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-<iframe src="https://www.youtube.com/embed/aAPoRpSR0tY" title="Septentrio: How to receive corrections via NTRIP on the Septentrio mosaic receiver module" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</article>
-
-
-??? example "Polaris RTK"
-	The Polaris RTK Corrections Network, provided by PointOne, is an example of a 3rd-party correction service. For users interested in enabling this RTK subscription service, they can check out the [documentation from their website](https://pointonenav.com/news/watch-easy-rtk-setup-for-a-septentrio-mosaic-T-with-polaris-rtk) and the video below:
-
-	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-	<iframe src="https://www.youtube.com/embed/CPHC-alH0W0" title="Easy RTK setup for a Septentrio Mosaic-T with Polaris RTK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</article>
-
-</div>
-
-</div>
-
-
-
 #### Sharing Internet Access
-By default, the mosaic-T GNSS receiver is not configured to access the internet through the USB interface. In order to receive or cast RTK corrections to/from a RTK network, such as NTRIP, users will need to enable capability.
+By default, the mosaic-T GNSS receiver is not configured to access the internet through the USB interface. Users will need to enable this capability as needed.
 
 - Users will need to use the web interface or RxTool software suite to enable the `Outgoing Internet Access Over USB` from the **Communication** > **USB** drop-down menu of the navigation tabs.
 - This also requires users to allow Internet sharing through their computer as well. The procedure to do so depends on your operating system.
@@ -247,7 +212,7 @@ By default, the mosaic-T GNSS receiver is not configured to access the internet 
 			1. ion
 				1. use it to access the web interface, add NTRIP client (using rtk2go.com, must input an email, no password, select a mountpoint near you(http://monitor.use-snip.com/map)), now you should get RTK. If the mosaic is still not connecting, try to reboot it using the RST button on the breakout. The assigned IP will probably not change next time. Good luck.
 
-			This web interface makes setting up RTK really easy and you only need a usb cable to connect the breakout to a computer with internet.
+			This web interface makes setting up really easy and you only need a usb cable to connect the breakout to a computer with internet.
 
 
 <div class="grid" markdown>

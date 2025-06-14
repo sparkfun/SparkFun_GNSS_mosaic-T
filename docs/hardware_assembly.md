@@ -162,7 +162,7 @@ An &micro;SD card slot is available for users to log and store data, locally on 
 
 
 ## JST Connector
-The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART port of the mosaic-T module.
+The JST connector on the Timing GNSS board, breaks out the `COM3` UART port of the mosaic-T module.
 
 <figure markdown>
 [![JST connector](./assets/img/hookup_guide/assembly-jst_connector.jpg){ width="400" }](./assets/img/hookup_guide/assembly-jst_connector.jpg "Click to enlarge")
@@ -259,7 +259,7 @@ The JST connector on the Tri-band GNSS RTK board, breaks out the `COM3` UART por
 
 
 ## Breakout Pins
-The [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins on the Tri-band GNSS RTK board are broken out into 0.1"-spaced pins on the outer edges of the board.
+The [PTH](https://en.wikipedia.org/wiki/Through-hole_technology "Plated Through Holes") pins on the mosaic-T Timing GNSS board are broken out into 0.1"-spaced pins on the outer edges of the board.
 
 ??? note "New to soldering?"
 	If you have never soldered before or need a quick refresher, check out our [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) guide.

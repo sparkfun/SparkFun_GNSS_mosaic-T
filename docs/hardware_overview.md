@@ -315,8 +315,8 @@ The centerpiece of the mosaic-T Timing GNSS breakout board, is the [mosaic-T mod
 </article>
 
 
-!!! warning "RTK Base"
-	The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. **But it can not be configured as a RTK Base. RTCM output is not supported.**
+!!! warning "RTK Not Supported"
+	The mosaic-T is a superb GNSS module designed for highly accurate timing applications. **But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.**
 
 </div>
 
@@ -375,7 +375,6 @@ The centerpiece of the mosaic-T Timing GNSS breakout board, is the [mosaic-T mod
 
 	| Correction | Horizontal                             | Vertical                     |
 	| :--------- | :------------------------------------: | :--------------------------: |
-	| RTK        | **0.6cm** *(&plusmn;0.5ppm)*<br>~0.25" | 1cm *(&plusmn;1ppm)*<br>~.4" |
 	| DGNSS      | 40cm<br>~1.3'                          | 70cm<br>~2.3'                |
 	| SBAS       | 60cm<br>~2'                            | 80cm<br>~2.6'                |
 	| Standalone | 1.2m<br>~4'                            | 1.9m<br>~6.2'                |
@@ -430,23 +429,11 @@ The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, ar
 
 ### Position Accuracy
 
-!!! warning "RTK Base"
-	The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. **But it can not be configured as a RTK Base. RTCM output is not supported.**
+!!! warning "RTK Not Supported"
+	The mosaic-T is a superb GNSS module designed for highly accurate timing applications. **But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.**
 
 
 <div class="grid" markdown>
-
-<div markdown>
-
-The accuracy of the position reported from the mosaic-T module, can be improved based upon the correction method being employed. Currently, [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic") corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:
-
-- RTK technique requires real-time correction data from a reference station or network of base stations.
-	- RTK corrections are signal specific *(i.e. an RTK network might provide corrections on only `E5b` and not `E5a`)*.
-- The range of the base stations will vary based upon the RTK method being employed.
-- The reliability of RTK corrections are inherently reduced in [multipath environments](https://en.wikipedia.org/wiki/Multipath_propagation). However, with Septentrio's multipath mitigation technology ([APME+](https://www.septentrio.com/en/learn-more/Advanced-positioning-technology/gnss-technology/multipath-mitigation-technology "A-Posteriori Multipath Estimation")) on the mosaic-T, these errors are significantly reduced when compared to multipath mitigation techniques that modify the correlators in the tracking channels.
-
-</div>
-
 
 <div markdown>
 
@@ -454,7 +441,6 @@ The accuracy of the position reported from the mosaic-T module, can be improved 
 
 | Correction                                                                                    | Horizontal                             | Vertical                     |
 | :-------------------------------------------------------------------------------------------- | :------------------------------------: | :--------------------------: |
-| [RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning "Real-Time Kinematic")    | **0.6cm** *(&plusmn;0.5ppm)*<br>~0.25" | 1cm *(&plusmn;1ppm)*<br>~.4" |
 | [DGNSS](https://en.wikipedia.org/wiki/Differential_GPS "Differential GNSS")                   | 40cm<br>~1.3'                          | 70cm<br>~2.3'                |
 | [SBAS](https://en.wikipedia.org/wiki/GNSS_augmentation "Satellite-Based Augmentation System") | 60cm<br>~2'                            | 80cm<br>~2.6'                |
 | Standalone                                                                                    | 1.2m<br>~4'                            | 1.9m<br>~6.2'                |
@@ -466,43 +452,8 @@ The accuracy of the position reported from the mosaic-T module, can be improved 
 </div>
 
 
-??? info "RTK Corrections"
-	To understand how RTK works, users will need a more fundamental understanding of the signal error sources.
-
-	<div class="grid cards" markdown align="center">
-
-	-   <a href="https://www.sparkfun.com/news/7533">
-		<figure markdown>
-		![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/home_page_posts/7/5/3/3/rtk-blog-thumb.png)
-		</figure>
-
-		---
-
-		**Real-Time Kinematics Explained**</a>
-
-	-   <a href="https://www.sparkfun.com/news/7138">
-		<figure markdown>
-		![Tutorial Thumbnail](https://cdn.sparkfun.com/c/264-148/assets/home_page_posts/7/1/3/8/SparkFun_RTK_Facet_-_Surveying_Monopod.jpg)
-		</figure>
-
-		---
-
-		**What is Correction Data?**</a>
-
-	-   <a href="https://www.septentrio.com/en/learn-more/insights/gnss-corrections-demystified">
-		<figure markdown>
-		![Tutorial Thumbnail](https://www.septentrio.com/sites/default/files/styles/blog_picture_v2/public/blog/Septentrio-GNSS-corrections-map-world-web.png)
-		</figure>
-
-		---
-
-		**GNSS Corrections Demystified**</a>
-
-	</div>
-
-
 !!! tip
-	For the best performance, we highly recommend that users configure the module to utilize/provide RTK corrections with a compatible L1/L2/L5 (tri-band) GNSS antenna and utilize a low-loss cable.
+	For the best performance, we highly recommend that users select a compatible L1/L2/L5 (tri-band) GNSS antenna and utilize a low-loss cable.
 
 
 
@@ -1132,7 +1083,7 @@ LED Jumpers
 	- **`PPS_LED`** - This jumper can be cut to remove power from the yellow LED, which is connected to the [PPS](https://en.wikipedia.org/wiki/Pulse-per-second_signal "Pulse Per Second") signal.
 	- **`LOG_LED`** - This jumper can be cut to remove power from the green LED, which indicates if data is being logged to the SD card.
 	- **`GP_LED`** - This jumper can be cut to remove power from the blue LED that is connected to the general purpose pins.
-	- **`RTK_LED`** - This jumper can be cut to remove power from the white LED, indicating RTK corrections.
+	- **`RTK_LED`** - This jumper can be cut to remove power from the white LED.
 
 **`VBATT`**
 :   This jumper can be cut to disconnect the `VBATT` pin from the 3.3V output of the AP7361C LDO regulator.

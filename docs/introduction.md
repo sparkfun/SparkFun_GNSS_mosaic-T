@@ -41,8 +41,8 @@ icon: material/book-open-page-variant
 
 	This breakout board is a perfect middle ground for users who would like to integrate the mosaic-T module into a project/enclosure with access to a majority of the module's available pins, similar to Septentrio's developer kit, but in the smaller form factor of their evaluation kit. Or maybe... you just needed a very accurate PPS output at a 3.3V logic level. *Please, check out the rest of our [hookup guide](hardware_overview.md) for more details on the capabilities of this board (that we couldn't fit in this product description).*
 
-	!!! warning "RTK Base"
-		The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. **But it can not be configured as a RTK Base. RTCM output is not supported.**
+	!!! warning "RTK Not Supported"
+		The mosaic-T is a superb GNSS module designed for highly accurate timing applications. **But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.**
 
 </div>
 
@@ -223,7 +223,7 @@ icon: material/book-open-page-variant
 ---
 
 
-In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board as a RTK rover. Additionally, we also provide some guidelines for creating a [GNSS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator), based upon our work with the [SparkPNT GNSSDO](https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html). To follow along with this tutorial, at a minimum, users will need the following items:
+In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board. Additionally, we also provide some guidelines for creating a [GNSS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator), based upon our work with the [SparkPNT GNSSDO](https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html). To follow along with this tutorial, at a minimum, users will need the following items:
 
 
 <div class="annotate" markdown>

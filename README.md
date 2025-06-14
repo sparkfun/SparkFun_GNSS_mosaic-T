@@ -17,9 +17,9 @@ This breakout board is a perfect middle ground for users who would like to integ
 
 > [!CAUTION]
 > 
-> RTK Base
+> RTK Not Supported
 > --------------
-> The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. **But it can not be configured as a RTK Base. RTCM output is not supported.**
+> The mosaic-T is a superb GNSS module designed for highly accurate timing applications. **But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.**
 
 Documentation
 -------------
