@@ -1828,8 +1828,8 @@ TOL-25572</a></p>
 <p><img alt="QR code to play video" class="qr" src="../assets/img/qr_code/video-mosaic-product_line.png" /></p>
 </article>
 <div class="admonition warning">
-<p class="admonition-title">RTK Base</p>
-<p>The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. <strong>But it can not be configured as a RTK Base. RTCM output is not supported.</strong></p>
+<p class="admonition-title">RTK Not Supported</p>
+<p>The mosaic-T is a superb GNSS module designed for highly accurate timing applications. <strong>But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.</strong></p>
 </div>
 </div>
 <div>
@@ -1889,11 +1889,6 @@ TOL-25572</a></p>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: left;">RTK</td>
-<td style="text-align: center;"><strong>0.6cm</strong> <em>(&plusmn;0.5ppm)</em><br>~0.25"</td>
-<td style="text-align: center;">1cm <em>(&plusmn;1ppm)</em><br>~.4"</td>
-</tr>
 <tr>
 <td style="text-align: left;">DGNSS</td>
 <td style="text-align: center;">40cm<br>~1.3'</td>
@@ -1956,21 +1951,10 @@ TOL-25572</a></p>
 </div>
 <h3 id="position-accuracy">Position Accuracy<a class="headerlink" data-preview="" href="#position-accuracy" title="Permanent link"></a></h3>
 <div class="admonition warning">
-<p class="admonition-title">RTK Base</p>
-<p>The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. <strong>But it can not be configured as a RTK Base. RTCM output is not supported.</strong></p>
+<p class="admonition-title">RTK Not Supported</p>
+<p>The mosaic-T is a superb GNSS module designed for highly accurate timing applications. <strong>But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.</strong></p>
 </div>
 <div class="grid">
-<div>
-<p>The accuracy of the position reported from the mosaic-T module, can be improved based upon the correction method being employed. Currently, <a href="https://en.wikipedia.org/wiki/Real-time_kinematic_positioning" title="Real-Time Kinematic" target="_blank" rel="noopener">RTK</a> corrections provide the highest level of accuracy; however, users should be aware of certain limitations of the system:</p>
-<ul>
-<li>RTK technique requires real-time correction data from a reference station or network of base stations.<ul>
-<li>RTK corrections are signal specific <em>(i.e. an RTK network might provide corrections on only <code>E5b</code> and not <code>E5a</code>)</em>.</li>
-</ul>
-</li>
-<li>The range of the base stations will vary based upon the RTK method being employed.</li>
-<li>The reliability of RTK corrections are inherently reduced in <a href="https://en.wikipedia.org/wiki/Multipath_propagation" target="_blank" rel="noopener">multipath environments</a>. However, with Septentrio's multipath mitigation technology (<a href="https://www.septentrio.com/en/learn-more/Advanced-positioning-technology/gnss-technology/multipath-mitigation-technology" title="A-Posteriori Multipath Estimation" target="_blank" rel="noopener">APME+</a>) on the mosaic-T, these errors are significantly reduced when compared to multipath mitigation techniques that modify the correlators in the tracking channels.</li>
-</ul>
-</div>
 <div>
 <article style="text-align: center;">
 <table>
@@ -1982,11 +1966,6 @@ TOL-25572</a></p>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Real-time_kinematic_positioning" title="Real-Time Kinematic" target="_blank" rel="noopener">RTK</a></td>
-<td style="text-align: center;"><strong>0.6cm</strong> <em>(&plusmn;0.5ppm)</em><br>~0.25"</td>
-<td style="text-align: center;">1cm <em>(&plusmn;1ppm)</em><br>~.4"</td>
-</tr>
 <tr>
 <td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Differential_GPS" title="Differential GNSS" target="_blank" rel="noopener">DGNSS</a></td>
 <td style="text-align: center;">40cm<br>~1.3'</td>
@@ -2007,41 +1986,9 @@ TOL-25572</a></p>
 </article>
 </div>
 </div>
-<details class="info">
-<summary>RTK Corrections</summary>
-<p>To understand how RTK works, users will need a more fundamental understanding of the signal error sources.</p>
-<div class="grid cards" markdown align="center">
-<ul>
-<li>
-<p><a href="https://www.sparkfun.com/news/7533" target="_blank" rel="noopener">
-    <figure markdown>
-    <img alt="Tutorial Thumbnail" src="../assets/external/cdn.sparkfun.com/c/264-148/assets/home_page_posts/7/5/3/3/rtk-blog-thumb.png">
-    </figure></p>
-<hr />
-<p><strong>Real-Time Kinematics Explained</strong></a></p>
-</li>
-<li>
-<p><a href="https://www.sparkfun.com/news/7138" target="_blank" rel="noopener">
-    <figure markdown>
-    <img alt="Tutorial Thumbnail" src="../assets/external/cdn.sparkfun.com/c/264-148/assets/home_page_posts/7/1/3/8/SparkFun_RTK_Facet_-_Surveying_Monopod.jpg">
-    </figure></p>
-<hr />
-<p><strong>What is Correction Data?</strong></a></p>
-</li>
-<li>
-<p><a href="https://www.septentrio.com/en/learn-more/insights/gnss-corrections-demystified" target="_blank" rel="noopener">
-    <figure markdown>
-    <img alt="Tutorial Thumbnail" src="../assets/external/www.septentrio.com/sites/default/files/styles/blog_picture_v2/public/blog/Septentrio-GNSS-corrections-map-world-web.png">
-    </figure></p>
-<hr />
-<p><strong>GNSS Corrections Demystified</strong></a></p>
-</li>
-</ul>
-</div>
-</details>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>For the best performance, we highly recommend that users configure the module to utilize/provide RTK corrections with a compatible L1/L2/L5 (tri-band) GNSS antenna and utilize a low-loss cable.</p>
+<p>For the best performance, we highly recommend that users select a compatible L1/L2/L5 (tri-band) GNSS antenna and utilize a low-loss cable.</p>
 </div>
 <h2 id="peripherals-and-io-pins">Peripherals and I/O Pins<a class="headerlink" data-preview="" href="#peripherals-and-io-pins" title="Permanent link"></a></h2>
 <p>The mosaic-T features several peripherals and I/O pins. Some of these are broken out as pins on the mosaic-T Timing GNSS breakout board; whereas, others are broken out to their specific interface <em>(i.e. &micro;SD Carsd slot, USB connector, etc.)</em>. Additionally, some of the pin connections are shared with other components or interfaces.</p>
@@ -2693,7 +2640,7 @@ TOL-25572</a></p>
 <li><strong><code>PPS_LED</code></strong> - This jumper can be cut to remove power from the yellow LED, which is connected to the <a href="https://en.wikipedia.org/wiki/Pulse-per-second_signal" title="Pulse Per Second" target="_blank" rel="noopener">PPS</a> signal.</li>
 <li><strong><code>LOG_LED</code></strong> - This jumper can be cut to remove power from the green LED, which indicates if data is being logged to the SD card.</li>
 <li><strong><code>GP_LED</code></strong> - This jumper can be cut to remove power from the blue LED that is connected to the general purpose pins.</li>
-<li><strong><code>RTK_LED</code></strong> - This jumper can be cut to remove power from the white LED, indicating RTK corrections.</li>
+<li><strong><code>RTK_LED</code></strong> - This jumper can be cut to remove power from the white LED.</li>
 </ul>
 </dd>
 <dt><strong><code>VBATT</code></strong></dt>
@@ -2741,7 +2688,7 @@ TOL-25572</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 12, 2025 22:43:17 UTC"><span class="timeago" datetime="2025-06-12T22:43:17+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 12, 2025 22:43:17 UTC">2025-06-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 14, 2025 12:34:15 UTC"><span class="timeago" datetime="2025-06-14T12:34:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 14, 2025 12:34:15 UTC">2025-06-14</span>
   </span>
 
     
@@ -2768,6 +2715,11 @@ TOL-25572</a></p>
 
     
     <nav>
+      
+        <a href="https://github.com/PaulZC" class="md-author" title="@PaulZC" target="_blank" rel="noopener">
+          
+          <img src="../assets/external/avatars.githubusercontent.com/u/5690545.fe356448.jpg" alt="PaulZC">
+        </a>
       
         <a href="https://github.com/santaimpersonator" class="md-author" title="@santaimpersonator" target="_blank" rel="noopener">
           

@@ -1209,8 +1209,8 @@
 <p>Beyond the capabilities of the mosaic-T module, this board is seamless to operate with no programming skills required. Gone are the times when a microcontroller was required to interface with the GNSS receiver and log data to an SD card and when users had to carry around an SD card reader to extract the data from the SD card. The Timing GNSS Breakout - mosaic-T  can start/stop logging data or mount/unmount the SD card, without a single line of code, just utilizing a simple button. For the users who prefer a command-line interface, Septentrio has you covered. Users can still control and configure the mosaic-T module through a CLI, which is useful for scenarios such as production line testing <em>(in fact, that is how we tested this board)</em>.</p>
 <p>This breakout board is a perfect middle ground for users who would like to integrate the mosaic-T module into a project/enclosure with access to a majority of the module's available pins, similar to Septentrio's developer kit, but in the smaller form factor of their evaluation kit. Or maybe... you just needed a very accurate PPS output at a 3.3V logic level. <em>Please, check out the rest of our <a data-preview="" href="../hardware_overview/">hookup guide</a> for more details on the capabilities of this board (that we couldn't fit in this product description).</em></p>
 <div class="admonition warning">
-<p class="admonition-title">RTK Base</p>
-<p>The mosaic-T is a superb GNSS module designed for highly accurate timing applications. It can be configured as a RTK Rover and will make use of incoming RTCM corrections. <strong>But it can not be configured as a RTK Base. RTCM output is not supported.</strong></p>
+<p class="admonition-title">RTK Not Supported</p>
+<p>The mosaic-T is a superb GNSS module designed for highly accurate timing applications. <strong>But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.</strong></p>
 </div>
 </li>
 </ul>
@@ -1384,7 +1384,7 @@ TOL-25572</a></p>
 </div>
 </details>
 <hr />
-<p>In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board as a RTK rover. Additionally, we also provide some guidelines for creating a <a href="https://en.wikipedia.org/wiki/GPS_disciplined_oscillator" target="_blank" rel="noopener">GNSS disciplined oscillator</a>, based upon our work with the <a href="https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html" target="_blank" rel="noopener">SparkPNT GNSSDO</a>. To follow along with this tutorial, at a minimum, users will need the following items:</p>
+<p>In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board. Additionally, we also provide some guidelines for creating a <a href="https://en.wikipedia.org/wiki/GPS_disciplined_oscillator" target="_blank" rel="noopener">GNSS disciplined oscillator</a>, based upon our work with the <a href="https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html" target="_blank" rel="noopener">SparkPNT GNSSDO</a>. To follow along with this tutorial, at a minimum, users will need the following items:</p>
 <div class="annotate">
 <ul>
 <li>
@@ -1505,7 +1505,7 @@ TOL-25572</a></p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 12, 2025 22:54:38 UTC"><span class="timeago" datetime="2025-06-12T22:54:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 12, 2025 22:54:38 UTC">2025-06-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 14, 2025 12:34:15 UTC"><span class="timeago" datetime="2025-06-14T12:34:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 14, 2025 12:34:15 UTC">2025-06-14</span>
   </span>
 
     
@@ -1532,6 +1532,11 @@ TOL-25572</a></p>
 
     
     <nav>
+      
+        <a href="https://github.com/PaulZC" class="md-author" title="@PaulZC" target="_blank" rel="noopener">
+          
+          <img src="../assets/external/avatars.githubusercontent.com/u/5690545.fe356448.jpg" alt="PaulZC">
+        </a>
       
         <a href="https://github.com/santaimpersonator" class="md-author" title="@santaimpersonator" target="_blank" rel="noopener">
           
