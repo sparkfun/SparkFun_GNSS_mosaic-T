@@ -15,21 +15,21 @@
 
 
 ## Did we make a mistake?
-Spot something wrong? Please let us know. [![Open Issues Badge](https://img.shields.io/github/issues/sparkfun/SparkFun_GNSS_Flex_System.svg)](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/issues "Issues")
+Spot something wrong? Please let us know. [![Open Issues Badge](https://img.shields.io/github/issues/sparkfun/SparkFun_GNSS_mosaic-T.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/issues "Issues")
 
 
 ### Discrepancies in the Documentation
 All of our documentation can be modified by you! Please help us make it better.
 
-- The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/tree/main/docs) of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System).
+- The documentation files for these pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/tree/main/docs) of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T).
 
 
 #### 🔍 Spot something wrong?
-If a section of the documentation is incorrect, please [open an issue](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/issues) and let us know.
+If a section of the documentation is incorrect, please [open an issue](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/issues) and let us know.
 
 #### Do you have a suggested correction?
 
-1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/fork).
+1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/fork).
 1. Add your correction(s) or improvement(s) to the markdown file(s)
 1. File a pull request with your changes, and enjoy making the ~~words~~ ~~worlds~~ world a better place.
 	- Once received, the documentation specialist will automatically be notified.
@@ -39,15 +39,15 @@ If a section of the documentation is incorrect, please [open an issue](https://g
 ### Problems in the Hardware Design
 All of our designs are open-source! Please help us make it better.
 
-- Our board design files are contained in the `/Hardware` directories of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System).
+- Our board design files are contained in the `/Hardware` directories of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T).
 
 
 #### Does something not make sense? 🤔
-If part of the design is confusing, please [open an issue](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/issues) and let us know.
+If part of the design is confusing, please [open an issue](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/issues) and let us know.
 
 
 #### Did we forget to include an important function of the board? 🤦
-If part of the board's functionality is missing, please [open an issue](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/issues) and file a feature request.
+If part of the board's functionality is missing, please [open an issue](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/issues) and file a feature request.
 
 !!! tip "Design Considerations"
 	Please keep in mind that we may intentionally exclude certain functions of the board to meet our product design requirements.
@@ -57,7 +57,7 @@ If part of the board's functionality is missing, please [open an issue](https://
 
 #### Do you wish to contribute directly to improving the board design?
 
-1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/fork).
+1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/fork).
 1. Add your design augmentation(s)
 1. File a pull request with your changes, and enjoy making the ~~words~~ ~~worlds~~ world a better place.
 	1. Once received, the engineer in charge of the original design will automatically be notified.

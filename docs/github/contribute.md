@@ -1,17 +1,17 @@
 ## Make an Augmentation!
-Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. [![Pull Requests Badge](https://img.shields.io/github/issues-pr/sparkfun/SparkFun_GNSS_Flex_System.svg)](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/pulls "Pull Requests")
+Spot an improvement opportunity? Feel free to contribute to our open-source design and documentation. [![Pull Requests Badge](https://img.shields.io/github/issues-pr/sparkfun/SparkFun_GNSS_mosaic-T.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/pulls "Pull Requests")
 
 
 ## :material-file-document-multiple:&nbsp;Improve our Documentation
 All of this documentation can be modified by you! Please help us make it better.
 
-- These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/tree/main/docs) of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System).
+- These pages are contained in the [`docs` folder](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/tree/main/docs) of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T).
 
 
 <!-- ### :material-source-pull:&nbsp;Submit a Correction -->
 ### Submit a Correction
 
-1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/fork).
+1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/fork).
 1. Add your corrections or improvements to the markdown file.
 1. File a pull request with your changes, and enjoy making the ~~words~~ ~~worlds~~ world a better place.
 	- Once received, the documentation specialist will automatically be notified.
@@ -21,13 +21,13 @@ All of this documentation can be modified by you! Please help us make it better.
 ## :material-cog:&nbsp;Improve our Hardware Design
 All of our designs are open-source! Please help us make it better.
 
-- Our board design files are contained in the `/Hardware` directories of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System).
+- Our board design files are contained in the `/Hardware` directories of the [SparkFun GNSS Flex System repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T).
 
 
 <!-- ### :material-source-pull:&nbsp;Submit a Design Enhancement -->
 ### Submit a Design Enhancement
 
-1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/fork).
+1. With a GitHub account, [fork this repository](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/fork).
 1. Add your design augmentation(s)
 1. File a pull request with your changes, and enjoy making the ~~words~~ ~~worlds~~ world a better place.
 	1. Once received, the engineer in charge of the original design will automatically be notified.
@@ -41,6 +41,6 @@ All of our designs are open-source! Please help us make it better.
 ## Contributors&nbsp;:clap:
 Let's provide some recognition to the contributors for this project!
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_GNSS_Flex_System)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_GNSS_mosaic-T)
 <br>
-[![Pull Requests Badge](https://img.shields.io/github/contributors/sparkfun/SparkFun_GNSS_Flex_System.svg)](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/pulls "Pull Requests")
+[![Pull Requests Badge](https://img.shields.io/github/contributors/sparkfun/SparkFun_GNSS_mosaic-T.svg)](https://github.com/sparkfun/SparkFun_GNSS_mosaic-T/pulls "Pull Requests")
