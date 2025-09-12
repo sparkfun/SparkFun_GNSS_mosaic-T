@@ -6,9 +6,9 @@
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	- :material-folder-zip: [KiCad Files](./assets/board_files/kicad_files.zip)
 - Component Documentation
-	- :fontawesome-solid-file-pdf: [mosaic-T Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)
-		- :fontawesome-solid-file-pdf: [mosaic-T Brochure](./assets/component_documentation/Septentrio_mosaic-T_LR_new.pdf)
-		- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.14.0)*](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.14.10.1_Reference_Guide.pdf)
+	- :fontawesome-solid-file-pdf: [mosaic-T Datasheet](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)
+		- :fontawesome-solid-file-pdf: [mosaic-T Brochure](./assets/component_documentation/Septentrio_mosaic-T_LR.pdf)
+		- :fontawesome-solid-file-pdf: [Firmware Manual *(v4.15.0)*](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.15.0_Reference_Guide.pdf)
 	- :fontawesome-solid-file-pdf: [JST-GH Connector Datasheet](./assets/component_documentation/JST-GH_datasheet.pdf)
 	- :fontawesome-solid-file-pdf: [AP7361C Datasheet](./assets/component_documentation/AP7361C.pdf)
 	- :fontawesome-solid-file-pdf: [74LVC2T45 Datasheet](./assets/component_documentation/74LVC_LVCH2T45.pdf)

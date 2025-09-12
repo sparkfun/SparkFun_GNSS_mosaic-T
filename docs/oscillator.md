@@ -3,7 +3,7 @@ icon: material/sine-wave
 ---
 
 !!! info
-	This section describes a possible setup for a 10 MHz disciplined clock using the mosaic-T as a precision time source, which is particularly suitable in combination with Fugro AtomiChron^&reg;^ service. For more details, please refer to **Appendix D** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf) and [firmware manual](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.14.10.1_Reference_Guide.pdf).
+	This section describes a possible setup for a 10 MHz disciplined clock using the mosaic-T as a precision time source, which is particularly suitable in combination with Fugro AtomiChron^&reg;^ service. For more details, please refer to **Appendix D** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf) and [firmware manual](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.15.0_Reference_Guide.pdf).
 
 
 !!! warning
@@ -43,7 +43,7 @@ Users will configure the mosaic-T module to disable the PPS pulses and perform a
 
 
 !!! info
-	Refer to the [firmware manual](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.14.10.1_Reference_Guide.pdf) for a more detailed description of these commands.
+	Refer to the [firmware manual](./assets/component_documentation/firmware/mosaic-T_Firmware_v4.15.0_Reference_Guide.pdf) for a more detailed description of these commands.
 
 
 ### Controller

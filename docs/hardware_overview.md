@@ -271,7 +271,7 @@ The mosaic-T module operates in three different power states, which
 
 
 !!! info
-	For more information on the power management of the mosaic-T module, please refer to sections **3.4**, **3.5**, **4.1**, and **4.13** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf).
+	For more information on the power management of the mosaic-T module, please refer to sections **3.4**, **3.5**, **4.1**, and **4.13** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf).
 
 
 ??? tip "Drive Current"
@@ -296,13 +296,13 @@ The power consumption of the mosaic-T module depends on the GNSS signals enabled
 | All signals from all GNSS constellations +L-band | Static(1Hz) | 980 | 297 |
 | All signals from all GNSS constellations +L-band | Static (100Hz) | 1080 | 327 |
 
-*Source: [mosaic-T Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf)*
+*Source: [mosaic-T Hardware Manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf)*
 </article>
 
 
 
 ## :fontawesome-solid-microchip:&nbsp; mosaic-T
-The centerpiece of the mosaic-T Timing GNSS breakout board, is the [mosaic-T module](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf) from [Septentrio](https://www.septentrio.com/en). Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers) for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.
+The centerpiece of the mosaic-T Timing GNSS breakout board, is the [mosaic-T module](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf) from [Septentrio](https://www.septentrio.com/en). Their mosaic modules are low-power, multi-band, multi-constellation GNSS receivers capable of delivering centimeter-level precision at high update rates. The modules also feature Septentrio's unique [AIM+ technology](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-resilient-and-secure-gnss/gps-receivers) for interference mitigation and anti-spoofing, which ensures their best-in-class reliability and scalable position accuracy.
 
 
 <div class="grid" markdown>
@@ -406,7 +406,7 @@ The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, ar
 
 
 !!! info
-	For a comparison of the frequency bands supported by the mosaic modules, refer to section **3.1** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.9.0.pdf).
+	For a comparison of the frequency bands supported by the mosaic modules, refer to section **3.1** of the [hardware manual](./assets/component_documentation/mosaic_hardware_manual_v1.11.0.pdf).
 
 	??? info "What are Frequency Bands?"
 		A [frequency band](https://en.wikipedia.org/wiki/Frequency_band) is a section of the [electromagnetic spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum), usually denoted by the range of its upper and lower limits. In the [radio spectrum](https://en.wikipedia.org/wiki/Radio_spectrum), these frequency bands are usually regulated by region, often through a government entity. This regulation prevents the interference of RF communication; and often includes major penalties for any interference with critical infrastructure systems and emergency services.
