@@ -1,7 +1,3 @@
----
-icon: material/cog
----
-
 !!! danger "Important: Read Before Use!"
 	!!! warning "ESD Sensitivity"
 		The mosaic-T module is sensitive to [ESD](https://en.wikipedia.org/wiki/Electrostatic_discharge "Electrostatic Discharge"). Use a proper grounding system to make sure that the working surface and the components are at the same electric potential.

@@ -1,7 +1,3 @@
----
-icon: material/book-open-page-variant
----
-
 <figure markdown>
 ![Hookup Guide - Thumbnail](./assets/img/banner-hookup_guide.png)
 </figure>
