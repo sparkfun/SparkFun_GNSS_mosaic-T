@@ -984,9 +984,7 @@ There are five status LEDs on the TMC6300 motor driver:
 
 <figure markdown>
 [![Status LEDs](./assets/img/hookup_guide/LEDs.png){ width="400" }](./assets/img/hookup_guide/LEDs.png "Click to enlarge")
-<figcaption markdown>
-The status indicator LEDs on the mosaic-T Timing GNSS breakout board.
-</figcaption>
+<figcaption markdown>The status indicator LEDs on the mosaic-T Timing GNSS breakout board.</figcaption>
 </figure>
 
 
@@ -1066,9 +1064,7 @@ There are eight jumpers on the back of the board that can be used to easily modi
 
 <figure markdown>
 [![Jumpers](./assets/img/hookup_guide/jumpers.png){ width="400" }](./assets/img/hookup_guide/jumpers.png "Click to enlarge")
-<figcaption markdown>
-The jumpers on the back of the mosaic-T Timing GNSS breakout board.
-</figcaption>
+<figcaption markdown>The jumpers on the back of the mosaic-T Timing GNSS breakout board.</figcaption>
 </figure>
 
 LED Jumpers

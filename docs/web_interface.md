@@ -194,9 +194,7 @@ By default, the mosaic-T GNSS receiver is not configured to access the internet 
 				1. Check wired connections under ethernet, one of them should read 'Device: usb0 ....', double click -> IP v4 settings -> method: shared to other computers -> save.
 					<figure markdown>
 					[![Network Manager](./assets/img/hookup_guide/pi-network_manager.png){ width="400" }](./assets/img/hookup_guide/pi-network_manager.png "Click to enlarge")
-					<figcaption markdown>
-					Editing the connections through the Raspberry Pi's **Network Manager**.
-					</figcaption>
+					<figcaption markdown>Editing the connections through the Raspberry Pi's **Network Manager**.</figcaption>
 					</figure>
 			1. Determine the IP address assigned to the mosaic-T
 				1. click on network manager - advanced options - connection information to get the ip of the same wired connection, 10.42.0.1 in my case
