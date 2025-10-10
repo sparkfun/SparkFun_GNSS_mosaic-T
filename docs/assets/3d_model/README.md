@@ -6,8 +6,24 @@ This folder should contain the 3D model of the product
 Hex: #E0311D
 RGB: 224, 49, 29
 
+
 ## File Optimizer
-https://www.loci-labs.com/optimizer
+https://glb.babylonpress.org/
+
+- Enable these options
+    - `Simplify | MeshoptSimplifier`
+    - `Quantize | KHR_mesh_quantization`
+    - `Use UASTC Zstandard Supercompression`
+- Set these options, to the following values:
+    - `ETC1S Quality Level (255 = best)`: 73
+    - `ETC1S Compression Level (0 = fastest)`: 5
+
+### VS Code Extension
+To reorder the materials for the rendering, use the [GlTF Tools extension](https://marketplace.visualstudio.com/items?itemName=cesium.gltf-vscode) in VS Code
+
+- https://marketplace.visualstudio.com/items?itemName=cesium.gltf-vscode
+- https://github.com/AnalyticalGraphicsInc/gltf-vscode
+
 
 ## Model Editor
 https://modelviewer.dev/editor/
@@ -35,5 +51,14 @@ Replace those values with the following values: `[,,,1]`
           1
 ```
 
-## Solder Mask - Color Correction
+### Solder Mask - Color Correction
 https://3deditoronline.com/
+
+### 1st File Optimizer *(Deprecated)*
+https://www.loci-labs.com/optimizer
+
+### 2nd File Optimizer *(Deprecated)*
+https://xiehangyun.github.io/gltf-optimization/
+
+- Max Texture Size: 512
+- Create Unified Palette Texture for Solid Colors and Merge: *(Unselect)*
