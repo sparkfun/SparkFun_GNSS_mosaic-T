@@ -50,15 +50,25 @@ Product Variants
 ----------------
 
 - mosaic-T:
-	- [GPS-28731](https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html) - mosaic-T Timing GNSS Breakout
-	- [GPS-26289](https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html) - GNSS Disciplined Oscillator
+  - [GPS-28731](https://www.sparkfun.com/sparkfun-timing-gnss-breakout-mosaic-t.html) - mosaic-T Timing GNSS Breakout
+  - [SXT](https://www.sparkpnt.com/products/sxt-gnssdo) - GNSS Disciplined Oscillator
 - mosaic-X5:
-	- [GPS-23088](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) - Triband GNSS RTK Breakout - mosaic-X5
-	- [GPS-23748](https://www.sparkfun.com/sparkfun-rtk-mosaic-x5.html) - RTK mosaic-X5
-	- [GPS-24903](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html) - SparkPNT RTK Facet mosaic L-Band
-	- Flex Modules:
-		- [GPS-28138](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) - GNSS Flex module - mosaic-X5
-		- [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - GNSS Flex pHAT w/ the mosaic-X5 GNSS Flex module
+  - [GPS-23088](https://www.sparkfun.com/sparkfun-triband-gnss-rtk-breakout-mosaic-x5.html) - Triband GNSS RTK Breakout - mosaic-X5
+  - [SXM-E](https://www.sparkpnt.com/products/sparkpnt-sxm-e-cors) - RTK mosaic-X5
+  - [GPS-24903](https://www.sparkfun.com/sparkpnt-rtk-facet-mosaic-l-band.html) - SparkPNT RTK Facet mosaic L-Band
+  - Flex Modules:
+    - [GPS-28138](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5.html) - GNSS Flex module - mosaic-X5
+    - [GPS-29457](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-x5-im19-imu.html) - GNSS Flex module - mosaic-X5 & IM19
+    - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - GNSS Flex pHAT w/ the mosaic-X5 GNSS Flex module
+    - [GPS-29889](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5-im19-imu.html) - GNSS Flex pHAT w/ the mosaic-X5 & IM19 GNSS Flex module
+- mosaic-G5 P3:
+  - [GPS-29208]( - GNSS RTK Breakout - mosaic-G5 P3
+  - Flex Modules:
+    - [GPS-29209](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-g5-p3.html) - GNSS Flex module - mosaic-G5 P3
+    - [GPS-29363](https://www.sparkfun.com/sparkpnt-gnss-flex-module-mosaic-g5-p3-im19-imu.html) - GNSS Flex module - mosaic-G5 P3 & IM19
+    - [GPS-](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-g5-p3.html) - GNSS Flex pHAT w/ the mosaic-G5 P3 GNSS Flex module
+    - [GPS-](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-g5-p3-im19-imu.html) - GNSS Flex pHAT w/ the mosaic-G5 P3 & IM19 GNSS Flex module
+
 
 Version History
 ---------------
