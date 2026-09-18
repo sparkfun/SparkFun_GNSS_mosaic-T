@@ -219,7 +219,7 @@
 ---
 
 
-In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board. Additionally, we also provide some guidelines for creating a [GNSS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator), based upon our work with the [SparkPNT GNSSDO](https://www.sparkfun.com/sparkpnt-gnss-disciplined-oscillator.html). To follow along with this tutorial, at a minimum, users will need the following items:
+In this guide we'll cover how to setup the mosaic-T Timing GNSS breakout board. Additionally, we also provide some guidelines for creating a [GNSS disciplined oscillator](https://en.wikipedia.org/wiki/GPS_disciplined_oscillator), based upon our work with the [SparkPNT GNSSDO](https://www.sparkpnt.com/products/sxt-gnssdo). To follow along with this tutorial, at a minimum, users will need the following items:
 
 
 <div class="annotate" markdown>
