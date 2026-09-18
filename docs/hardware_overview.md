@@ -226,7 +226,7 @@ Below, is a general summary of the power circuitry on the board, broken out as [
 
 
 ### Power Modes
-The mosaic-T module operates in three different power states, which 
+The mosaic-T module operates in three different power states:
 
 
 <div class="grid" markdown>
