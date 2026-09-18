@@ -16,7 +16,7 @@ Beyond the capabilities of the mosaic-T module, this board is seamless to operat
 This breakout board is a perfect middle ground for users who would like to integrate the mosaic-T module into a project/enclosure with access to a majority of the module's available pins, similar to Septentrio's developer kit, but in the smaller form factor of their evaluation kit. Or maybe... you just needed a very accurate PPS output at a 3.3V logic level. *Please, check out our [hookup guide](https://docs.sparkfun.com/SparkFun_GNSS_mosaic-T) for more details on the capabilities of this board (that we couldn't fit in this product description).*
 
 > [!CAUTION]
-> 
+>
 > RTK Not Supported
 > --------------
 > The mosaic-T is a superb GNSS module designed for highly accurate timing applications. **But it does not support RTK. It can not be configured as a RTK Rover or Base. RTCM output is not supported.**
@@ -35,16 +35,16 @@ Repository Contents
 -------------------
 
 - **[/docs](/docs/)** - Online documentation files
-	- [/assets](/docs/assets/) - Assets files
-		- [/3d_model](/docs/assets/3d_model/) - 3D models for the board
-		- [/board_files](/docs/assets/board_files/) - Design files for the board
-			- [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
-			- [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
-			- [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
-		- [/component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
-		- [/img/hookup_guide](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation - Hookup guide images for the board
-		- /Hardware - Hardware design files (.brd, .sch)
-			- /Production - Production files
+  - [/assets](/docs/assets/) - Assets files
+    - [/3d_model](/docs/assets/3d_model/) - 3D models for the board
+    - [/board_files](/docs/assets/board_files/) - Design files for the board
+      - [KiCad Design Files](/docs/assets/board_files/kicad_files.zip) (.zip)
+      - [Schematic](/docs/assets/board_files/schematic.pdf) (.pdf)
+      - [Dimensions](/docs/assets/board_files/dimensions.pdf) (.pdf)
+    - [/component_documentation](/docs/assets/component_documentation/) - Datasheets for hardware components
+    - [/img/hookup_guide](/docs/assets/img/hookup_guide/) - Images for hookup guide documentation - Hookup guide images for the board
+    - /Hardware - Hardware design files (.brd, .sch)
+      - /Production - Production files
 
 Product Variants
 ----------------

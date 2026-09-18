@@ -454,7 +454,7 @@ The mosaic modules are multi-band, multi-constellation GNSS receivers. Below, ar
 
 
 ## Peripherals and I/O Pins
-The mosaic-T features several peripherals and I/O pins. Some of these are broken out as pins on the mosaic-T Timing GNSS breakout board; whereas, others are broken out to their specific interface *(i.e. &micro;SD Carsd slot, USB connector, etc.)*. Additionally, some of the pin connections are shared with other components or interfaces.
+The mosaic-T features several peripherals and I/O pins. Some of these are broken out as pins on the mosaic-T Timing GNSS breakout board; whereas, others are broken out to their specific interface *(i.e. &micro;SD Card slot, USB connector, etc.)*. Additionally, some of the pin connections are shared with other components or interfaces.
 
 <div class="grid cards" markdown>
 
@@ -528,7 +528,7 @@ There are thirty I/O pins on the mosaic-T Timing GNSS breakout board, most of wh
 
 
 	!!! info
-		By default, the `COM` ports will be configured with the following settings: 
+		By default, the `COM` ports will be configured with the following settings:
 
 		- Baudrate: 115200bps
 		- Data Bits: 8
